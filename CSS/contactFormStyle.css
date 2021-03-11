@@ -1,0 +1,48 @@
+textarea {
+    resize: none;
+    border-color: rgb(173, 71, 31);
+}
+
+input {
+    border-color: rgb(173, 71, 31);
+    position: absolute;
+    left: 100px;
+}
+
+body {
+    background-color: rgb(200, 222, 230);
+    /*text-align: center;*/
+}
+
+h2 {
+    text-align: center;
+}
+
+.topNavigation  {
+    overflow: hidden;
+    background-color: rgb(49, 76, 194);
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%; 
+  }
+  
+  
+  .topNavigation a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .topNavigation a:hover {
+    background: rgb(186, 183, 211);
+    color: black;
+  }
+  h2 {
+    margin-top: 70px; 
+  }
+

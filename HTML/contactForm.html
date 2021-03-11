@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src = "contactFormApp.js" defer></script>
+    <link href = "contactFormStyle.css" type = "text/css" rel = "stylesheet"> 
+</head>
+<body>
+    <div class = "topNavigation">
+        <a href = "index.html">Home</a>
+        <a href = "contactForm.html">Contact Me</a>
+    </div>
+    <img src = "personOnComputer.jpg" width="300" height="246" style="float: right;">
+    <h2>Contact me <br> &#128512</h2>
+    <form action="mailto:eaharonson1806@gmail.com" method = "post" enctype = "text/plain" id = "myForm">
+        <label for="firstName"> First Name: </label>
+        <input type="text" id = "firstName" name = "firstName"><br><br>
+        <label for="lastName"> Last Name: </label>
+        <input type="text" id = "lastName" name = "lastName"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea name = "message" rows = "7" cols = "50" placeholder="Please write your message here"></textarea>><br>
+        <input type = "submit" value = "Send email" id = "submitButton" onClick="return validateInputForm()">
+    </form>
+</body>
+</html>
