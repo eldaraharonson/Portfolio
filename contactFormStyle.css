@@ -1,3 +1,4 @@
+@import "indexStyle.css";
 textarea {
     resize: none;
     border-color: rgb(173, 71, 31);
@@ -11,7 +12,6 @@ input {
 
 body {
     background-color: rgb(200, 222, 230);
-    /*text-align: center;*/
 }
 
 h2 {
