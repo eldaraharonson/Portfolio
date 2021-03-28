@@ -3,4 +3,26 @@
 .introduction {
     position: relative;
     top: 50px;
+    text-align: center;
+}
+
+#projectsHeader {
+    Color: rgb(4, 50, 10);
+    text-align: center;
+    
+}
+
+p, ul {
+    max-width: 600px;
+}
+
+img {
+    position: absolute;
+    right: 25px;
+    z-index: 0;
+}
+
+.FacebookApp {
+    position: relative;
+    top: 30px;
 }

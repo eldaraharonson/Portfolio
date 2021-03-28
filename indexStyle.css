@@ -1,5 +1,7 @@
+
 h2 {
     Color: rgb(18, 119, 81);
+    margin-top: 70px; 
 }
  h1 {
      font-style: oblique;
@@ -17,6 +19,7 @@ h2 {
     top: 0; 
     left: 0;
     width: 100%; 
+    z-index: 1;
   }
   
   
@@ -34,9 +37,7 @@ h2 {
     background: rgb(186, 183, 211);
     color: black;
   }
-h2 {
-    margin-top: 70px; 
-  }
+
 
 body {
     background-color: rgb(200, 222, 230);
